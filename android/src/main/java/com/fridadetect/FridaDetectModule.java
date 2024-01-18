@@ -12,6 +12,10 @@ import com.facebook.react.module.annotations.ReactModule;
 public class FridaDetectModule extends ReactContextBaseJavaModule {
   public static final String NAME = "FridaDetect";
 
+  static {
+    System.loadLibrary("native-lib");
+  }
+
   public FridaDetectModule(ReactApplicationContext reactContext) {
     super(reactContext);
   }
