@@ -17,6 +17,6 @@ const FridaDetect = NativeModules.FridaDetect
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return FridaDetect.multiply(a, b);
+export function init(): void {
+  FridaDetect.init();
 }
