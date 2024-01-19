@@ -18,5 +18,5 @@ const FridaDetect = NativeModules.FridaDetect
     );
 
 export function init(): void {
-  FridaDetect.init();
+  FridaDetect.detect();
 }

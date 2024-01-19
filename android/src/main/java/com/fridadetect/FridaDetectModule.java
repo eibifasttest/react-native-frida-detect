@@ -30,6 +30,6 @@ public class FridaDetectModule extends ReactContextBaseJavaModule {
   // Example method
   // See https://reactnative.dev/docs/native-modules-android
   @ReactMethod
-  public void init() {
+  public void detect() {
   }
 }
