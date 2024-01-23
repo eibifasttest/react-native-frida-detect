@@ -59,6 +59,16 @@ android {
     release {
       minifyEnabled false
     }
+    debug {
+      debuggable true
+      initWith debug
+      jniDebuggable true
+      externalNativeBuild {
+        cmake {
+          cFlags "-DDEBUG=1"
+        }
+      }
+    }
   }
 
   lintOptions {
