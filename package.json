@@ -1,6 +1,6 @@
 {
   "name": "react-native-frida-detect",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "react native implementation based on https://github.com/darvincisec/DetectFrida",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
